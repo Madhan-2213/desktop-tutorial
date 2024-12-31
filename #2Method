@@ -1,0 +1,22 @@
+public class Main {
+     static int sumOfDigit(int sum1 , int sum2){
+         int total = sum1+sum2;
+            return total;
+     }
+     static void  welcome(String Madhan){
+
+         System.out.println(Madhan);
+     }
+     static String Venkat(String dhana){
+         String josh = dhana;
+         return josh;
+     }
+
+    public static void main(String[] args) {
+        System.out.println(sumOfDigit(10,89));
+        System.out.println(sumOfDigit(232,234));
+        welcome("Alice");
+        String madhan = Venkat("lakshmi");
+        System.out.println(madhan);
+
+    }}
